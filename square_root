@@ -1,0 +1,13 @@
+num=int(input("enter the number:"))
+z=1
+if num < 0:
+    print("square root of negative number is not real number")
+else:
+    for number in range(num):
+        if num==(z*z):
+            break
+        z=z+1
+    z= (z+num/z)/2
+    err=abs(num-z**2)
+    if err==0:
+        print("square root of",num ,"is",z)
